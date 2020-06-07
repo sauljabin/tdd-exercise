@@ -12,8 +12,17 @@ Puedes ver las diapositivas [aquí](https://docs.google.com/presentation/d/1BURc
 
 ### Comandos
 
-Ejecutar pruebas y generación de reporte de cobertura:
+Ejecutar pruebas:
 ```shell script
 $ gradle clean test
 ```
 
+Generación de reporte de cobertura:
+```shell script
+$ gradle clean jacocoTestReport
+```
+
+Ejecutar pruebas de mutación:
+```shell script
+$ gradle clean pitest
+```

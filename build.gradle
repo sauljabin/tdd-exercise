@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'application'
     id 'jacoco'
+    id 'info.solidsoft.pitest' version '1.5.1'
 }
 
 repositories {
@@ -29,4 +30,12 @@ test {
 
 jacocoTestReport {
     dependsOn test
+}
+
+pitest {
+    junit5PluginVersion = '0.12'
+    targetClasses = ['tdd.exercise.*']
+    threads = 4
+    outputFormats = ['HTML']
+    timestampedReports = false
 }
