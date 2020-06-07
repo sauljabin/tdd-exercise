@@ -8,6 +8,7 @@ Puedes ver las diapositivas [aquí](https://docs.google.com/presentation/d/1BURc
 - Gradle 6
 - JUnit 5
 - AssertJ 3
+- Mockito 3
 - Jacoco Gradle Plugin
 - Sonarqube Gradle Plugin
 
