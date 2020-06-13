@@ -41,7 +41,7 @@ jacocoTestReport {
 
 pitest {
     junit5PluginVersion = '0.12'
-    targetClasses = ['tdd.exercise.*']
+    targetClasses = ['tdd.*']
     threads = 4
     outputFormats = ['HTML']
     timestampedReports = false
