@@ -1,4 +1,4 @@
-package tdd.solution;
+package tdd.exercise2;
 
 /**
  * Interfaz que representa las etapas del pipeline. Se puede usar genéricos para

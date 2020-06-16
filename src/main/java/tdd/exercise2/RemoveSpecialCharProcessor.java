@@ -1,4 +1,4 @@
-package tdd.solution;
+package tdd.exercise2;
 
 public class RemoveSpecialCharProcessor implements StringProcessor {
     @Override

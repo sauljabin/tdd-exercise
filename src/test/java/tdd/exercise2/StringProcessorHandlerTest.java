@@ -1,4 +1,4 @@
-package tdd.solution;
+package tdd.exercise2;
 
 import org.jeasy.random.EasyRandom;
 import org.junit.jupiter.api.Test;
@@ -21,6 +21,7 @@ class StringProcessorHandlerTest {
     // 6 Probar que el segundo procesador reciba la salida del primero
     // 7 Probar que la salida del pipeline sea la salida del último procesador
 
+    /* SOLUCION
     EasyRandom random = new EasyRandom();
 
     @Test
@@ -109,6 +110,7 @@ class StringProcessorHandlerTest {
 
         assertThat(output).isEqualTo(expectedValue);
     }
+    */
 
 
 }

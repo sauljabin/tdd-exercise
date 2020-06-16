@@ -1,4 +1,4 @@
-package tdd.solution;
+package tdd.exercise2;
 
 import java.security.InvalidParameterException;
 import java.util.LinkedList;
@@ -10,6 +10,8 @@ import java.util.List;
  * salida de un Stage es la entrada del siguiente.
  */
 public class StringProcessorHandler {
+
+    /* SOLUCION
     private List<StringProcessor> stringProcessors;
 
     public StringProcessorHandler() {
@@ -31,4 +33,7 @@ public class StringProcessorHandler {
         }
         return stringToProcess;
     }
+    */
+
+
 }

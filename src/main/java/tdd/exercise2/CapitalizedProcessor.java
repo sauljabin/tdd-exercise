@@ -1,4 +1,4 @@
-package tdd.solution;
+package tdd.exercise2;
 
 import static java.util.Arrays.asList;
 import static java.util.stream.Collectors.joining;
